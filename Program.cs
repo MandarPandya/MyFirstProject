@@ -4,11 +4,6 @@ namespace MyFirstProject
 {
     class Program
     {
-       static void Main(string[] args)
-        {
-           
-           TicketPricingExtended.extended();
-            
-        }
+        static void Main(string[] args) => TicketPricing.getPrice();
     }
 }
