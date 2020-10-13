@@ -4,6 +4,6 @@ namespace MyFirstProject
 {
     class Program
     {
-        static void Main(string[] args) => NumberAddition.getAddition();
+        static void Main(string[] args) => vowels.removeVowels();
     }
 }
