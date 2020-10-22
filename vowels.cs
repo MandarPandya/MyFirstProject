@@ -3,14 +3,32 @@
 
 namespace MyFirstProject
 {
-    class vowels
+    class StringOperations
     {
-       public static void removeVowels()
+       public static void performStringOperations()
         {
            Console.WriteLine("Enter string:");
-           string userInput = Console.ReadLine();
+           string input1 = Console.ReadLine();
+            string processedstr= removeVowel(input1);
+            
+
+
+            
+            string abc = Console.ReadLine();
+            removeVowel(abc);
+
            Console.WriteLine("-------------------");
-           string lowerString= userInput.ToLower();
+
+
+           
+           Console.WriteLine(processedstr);
+        }
+
+
+       public static string removeVowel(String userInput)
+        {
+
+            string lowerString= userInput.ToLower();
            string newString="";
             int i;
            for (i=0; i< userInput.Length; i++){
@@ -23,7 +41,8 @@ namespace MyFirstProject
                }
               
            }
-           Console.WriteLine(newString);
+
+            return newString;
         }
     }
 }

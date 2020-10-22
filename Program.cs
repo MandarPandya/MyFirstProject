@@ -4,6 +4,18 @@ namespace MyFirstProject
 {
     class Program
     {
-        static void Main(string[] args) => vowels.removeVowels();
+        static void Main(string[] args) 
+        {
+           
+            MovieRating.runProgram();
+
+            AnimalShelterProgram.run();
+
+            
+        }
+
+        
+        
+        
     }
 }
